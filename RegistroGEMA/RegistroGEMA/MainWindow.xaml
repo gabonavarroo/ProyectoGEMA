@@ -5,9 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RegistroGEMA"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="354,0,0,0" VerticalAlignment="Center"/>
+        Title="MainWindow" Height="204" Width="332">
+    <Grid Background="#FF5AA7A2">
+        <Button Content="Iniciar" HorizontalAlignment="Left" Margin="183,138,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" />
+        <Label Content="Usuario :" HorizontalAlignment="Left" Margin="25,22,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <Label Content="Contraseña :" HorizontalAlignment="Left" Margin="25,75,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <TextBox x:Name="txUsuario" HorizontalAlignment="Left" Height="23" Margin="101,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txUsuario_TextChanged"/>
+        <TextBox x:Name="txPassword" HorizontalAlignment="Left" Height="23" Margin="106,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txPassword_TextChanged"/>
 
     </Grid>
 </Window>

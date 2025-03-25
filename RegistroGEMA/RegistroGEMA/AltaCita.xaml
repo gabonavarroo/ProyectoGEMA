@@ -1,0 +1,25 @@
+﻿<Window x:Class="RegistroGEMA.AltaCita"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistroGEMA"
+        mc:Ignorable="d"
+        Title="Cita" Height="286" Width="421">
+    <Grid Background="#FF1CD8CB">
+        <Label Content="Cita&#xD;&#xA;" HorizontalAlignment="Left" Margin="147,30,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="30" Height="40"/>
+        <Button x:Name="regresarBt" Content="Regresar" HorizontalAlignment="Left" Margin="298,188,0,0" VerticalAlignment="Top" FontSize="18" Click="Button_Click" RenderTransformOrigin="0.301,0.38" Height="25" Width="72" FontFamily="Times New Roman"/>
+        <Button x:Name="agregarBt" Content="Agregar" HorizontalAlignment="Left" Margin="298,89,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Times New Roman" Width="72" Click="agregarBt_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="65,160,0,0" TextWrapping="Wrap" Text="Fecha" VerticalAlignment="Top" FontSize="18" FontFamily="Times New Roman"/>
+        <Button x:Name="eliminarBt" Content="Eliminar" HorizontalAlignment="Left" Margin="298,123,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Times New Roman" Width="72" Click="eliminarBt_Click"/>
+        <Button x:Name="buscarBt" Content="Buscar" HorizontalAlignment="Left" Margin="298,156,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Times New Roman" Width="72" Click="buscarBt_Click"/>
+        <TextBox x:Name="fechaTb" HorizontalAlignment="Left" Margin="131,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20" TextChanged="fechaTb_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="65,195,0,0" TextWrapping="Wrap" Text="Precio" VerticalAlignment="Top" FontSize="18" FontFamily="Times New Roman"/>
+        <TextBox x:Name="precioTb" HorizontalAlignment="Left" Margin="131,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="21" TextChanged="precioTB"/>
+        <TextBlock HorizontalAlignment="Left" Margin="59,92,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" FontSize="18" FontFamily="Times New Roman"/>
+        <TextBox x:Name="nombreTb" HorizontalAlignment="Left" Margin="131,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="22" TextChanged="nombreTb_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="65,126,0,0" TextWrapping="Wrap" Text="Tipo" VerticalAlignment="Top" FontSize="18" FontFamily="Times New Roman"/>
+        <TextBox x:Name="tipoTb" HorizontalAlignment="Left" Margin="131,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="tipoTb_TextChanged" Height="21"/>
+
+    </Grid>
+</Window>
