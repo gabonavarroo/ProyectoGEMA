@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RegistroGEMA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+911edbc0409a59d3ff4e8d03ce3048dce225abe8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+913a8cbcad38f44f05967b39a43473e36ad5dd93")]
 [assembly: System.Reflection.AssemblyProductAttribute("RegistroGEMA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RegistroGEMA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
