@@ -1,1 +1,19 @@
-
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.db
+*.pdb
+*.obj
+*.log
+*.tlog
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vscode/
