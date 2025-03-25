@@ -68,5 +68,17 @@ namespace RegistroGEMA
         {
 
         }
+
+        private void btSalir_Click(object sender, RoutedEventArgs e)
+        {
+            Opcion w = new Opcion();
+            w.Show();
+            this.Hide();
+        }
+
+        private void tbCorreo_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

@@ -20,4 +20,21 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+
+    private void txUsuario_TextChanged(object sender, TextChangedEventArgs e)
+    {
+
+    }
+
+    private void txPassword_TextChanged(object sender, TextChangedEventArgs e)
+    {
+
+    }
+
+    private void Button_Click(object sender, RoutedEventArgs e)
+    {
+        Opcion w = new Opcion();
+        w.Show();
+        this.Hide();
+    }
 }

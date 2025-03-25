@@ -6,22 +6,26 @@
         xmlns:local="clr-namespace:RegistroGEMA"
         mc:Ignorable="d"
         Title="User" Height="420" Width="652">
+
     <Grid Margin="0,-4,-1,0" Background="#FF239DC4">
-        <Label Content="Nombre"Content="Nombre de usuario&#xD;&#xA;" HorizontalAlignment="Left" Margin="51,86,0,0" VerticalAlignment="Top" Width="142" FontFamily="Times New Roman" FontSize="17 Height="34""/>
+        <Label Content="Nombre de usuario" HorizontalAlignment="Left" Margin="51,86,0,0" VerticalAlignment="Top" Width="142" FontFamily="Times New Roman" FontSize="17" Height="34"/>
         <TextBox x:Name="tbNomUsuario" HorizontalAlignment="Left" Height="22" Margin="237,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" TextChanged="tbNomUsuario_TextChanged" FontFamily="Times New Roman" FontSize="17"/>
-        <Button x:Name="btAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="489,90,0,0" VerticalAlignment="Top" Width="110" Click="btAgregar_Click" FontSize="17" FontFamily="Times New Roman"  />
+
+        <Button x:Name="btAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="489,90,0,0" VerticalAlignment="Top" Width="110" Click="btAgregar_Click" FontSize="17" FontFamily="Times New Roman"/>
+
         <Label Content="Usuario" HorizontalAlignment="Center" Margin="0,14,0,0" VerticalAlignment="Top" Width="144" FontFamily="Times New Roman" FontSize="40"/>
         <Label Content="Nombre" HorizontalAlignment="Left" Margin="83,142,0,0" VerticalAlignment="Top" Width="74" FontFamily="Times New Roman" FontSize="17"/>
-        <Label Content="Correo&#xD;&#xA;" HorizontalAlignment="Left" Margin="86,198,0,0" VerticalAlignment="Top" Width="71" FontFamily="Times New Roman" FontSize="17" Height="30"/>
-        <Label Content="Contraseña&#xD;&#xA;&#xA;" HorizontalAlignment="Left" Margin="70,259,0,0" VerticalAlignment="Top" Width="89" FontFamily="Times New Roman" FontSize="17" Height="26"/>
+        <Label Content="Correo" HorizontalAlignment="Left" Margin="86,198,0,0" VerticalAlignment="Top" Width="71" FontFamily="Times New Roman" FontSize="17" Height="30"/>
+        <Label Content="Contraseña" HorizontalAlignment="Left" Margin="70,259,0,0" VerticalAlignment="Top" Width="89" FontFamily="Times New Roman" FontSize="17" Height="26"/>
+
         <TextBox x:Name="tbNombre" HorizontalAlignment="Left" Height="22" Margin="237,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" TextChanged="tbNombre_TextChanged" FontFamily="Times New Roman" FontSize="17"/>
-        <TextBox x:Name="tbCorreo" HorizontalAlignment="Left" Height="22" Margin="237,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" TextChanged="tbFolio_TextChanged" FontFamily="Times New Roman" FontSize="17"/>
-        <TextBox x:Name="tbMail" HorizontalAlignment="Left" Height="22" Margin="237,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" TextChanged="tbMail_TextChanged" FontFamily="Times New Roman" FontSize="17"/>
+        <TextBox x:Name="tbCorreo" HorizontalAlignment="Left" Height="22" Margin="237,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" TextChanged="tbCorreo_TextChanged" FontFamily="Times New Roman" FontSize="17"/>
         <TextBox x:Name="tbPassword" HorizontalAlignment="Left" Height="22" Margin="238,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" FontFamily="Times New Roman" FontSize="17" TextChanged="tbPassword_TextChanged"/>
+
         <Button x:Name="btEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="489,144,0,0" VerticalAlignment="Top" Width="110" Click="btEliminar_Click" FontSize="17" FontFamily="Times New Roman"/>
         <Button x:Name="btModificar" Content="Modificar" HorizontalAlignment="Left" Margin="489,206,0,0" VerticalAlignment="Top" Width="110" Click="btModificar_Click" FontSize="17" FontFamily="Times New Roman"/>
         <Button x:Name="btBuscar" Content="Buscar" HorizontalAlignment="Left" Margin="489,263,0,0" VerticalAlignment="Top" Width="110" Click="btBuscar_Click" FontSize="17" FontFamily="Times New Roman"/>
-        <Button x:Name="btSalir" Content="Salir" HorizontalAlignment="Left" Margin="458,334,0,0" VerticalAlignment="Top" Width="126" Click="btAgregar_Click" FontSize="22" FontFamily="Times New Roman" Height="36"/>
-
+        <Button x:Name="btSalir" Content="Salir" HorizontalAlignment="Left" Margin="458,334,0,0" VerticalAlignment="Top" Width="126" Click="btSalir_Click" FontSize="22" FontFamily="Times New Roman" Height="36"/>
     </Grid>
 </Window>
+

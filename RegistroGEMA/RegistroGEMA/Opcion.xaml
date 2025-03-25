@@ -1,0 +1,15 @@
+﻿<Window x:Class="RegistroGEMA.Opcion"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistroGEMA"
+        mc:Ignorable="d"
+        Title="Opcion" Height="206" Width="455">
+    <Grid Background="#FF5AA7A2">
+        <Button x:Name="btUser" Content="USUARIOS" HorizontalAlignment="Left" Margin="23,63,0,0" VerticalAlignment="Top" Height="48" Width="90" Click="btUser_Click"/>
+        <Button x:Name="btDoctor" Content="DOCTORES" HorizontalAlignment="Center" Margin="0,63,0,0" VerticalAlignment="Top" Height="48" Width="95" Click="btDoctor_Click"/>
+        <Button x:Name="btCita" Content="CITA" HorizontalAlignment="Left" Margin="344,63,0,0" VerticalAlignment="Top" Height="48" Width="81" Click="btCita_Click"/>
+
+    </Grid>
+</Window>
