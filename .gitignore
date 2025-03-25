@@ -1,19 +1,71 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
 # Visual Studio
 .vs/
 *.user
 *.suo
-*.cache
-*.db
-*.pdb
-*.obj
-*.log
-*.tlog
-*.idb
-*.ipch
-*.aps
-*.ncb
-*.opensdf
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# User-specific files
+*.rsuser
 *.sdf
-*.VC.db
-*.VC.opendb
-*.vscode/
+*.cache
+*.dbmdl
+*.pdb
+*.db
+*.bak
+
+# Azure Web App publish settings
+PublishProfiles/
+
+# Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet packages (optional - if you want to ignore them)
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Others
+*.swp
+*.tmp
+*.pid
+*.old
+
+# JetBrains Rider
+.idea/
+
+# TFS
+$tf/
+
+# MacOS / Linux
+.DS_Store
+*.swp
+
+# Logs
+*.tlog
+
+# Temporary files
+~$*
+
+# Optional: ignore the entire 'TestResults' directory from test runs
+TestResults/
